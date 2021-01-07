@@ -1,0 +1,57 @@
+@media screen and (max-width: 720px) {
+    .dua {
+        .container {
+            .row {
+                display: flex;
+                flex-direction: row;
+                .kanan {
+                    .row {
+                        .col {
+                            width: 170px;
+                            img {
+                                width: 100px;
+                            }
+                            p {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+                .kiri{
+                  flex-basis: 100%;
+                  margin-bottom: 40px;  
+                }
+            }
+        }   
+    }
+    .tangan{
+        width: 440px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .tiga{
+        margin-left: 3px;
+        width: 100%;
+        .container{
+            .row{                
+                .kanan{
+                    img{
+                        width: 300px;
+                        overflow: hidden;
+                        margin-right: -15px;
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
